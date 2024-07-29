@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tutorials</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #72EDF2 10%, #5151E5 100%);
+            color: white;
+            text-align: center;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 2em;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
+        }
+        .card h3 {
+            margin: 15px 0;
+        }
+        .card p {
+            font-size: 0.9em;
+        }
+        .button {
+            background-color: #f4511e;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 20px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: white;
+            color: black;
+            border: 2px solid #f4511e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        My Tutorials
+    </header>
+    <div class="container">
+        <div class="card">
+            
+            <h3>Tutorial 1</h3>
+            
+            <a href="/Tutorial1/index.html" class="button">Read More</a>
+        </div>
+        <div class="card">
+           
+            <h3>Tutorial 2</h3>
+            <p>Master JavaScript with this comprehensive guide for intermediate learners.</p>
+            <a href="/Tutorial2/Q1/Flower.html" class="button">Q1</a>
+            <a href="/Tutorial2/Q2/index.html" class="button">Q2</a>
+        
+        </div>
+        <div class="card">
+            <img src="tutorial3.jpg" alt="Tutorial 3">
+            <h3>Tutorial 3</h3>
+            
+            <a href="/Tutorial3/Q1/Table1.html" class="button">Q1</a>
+            <a href="/Tutorial3/Q2/Table2.html" class="button">Q2</a>
+            <a href="/Tutorial3/Q3/Table3.html" class="button">Q3</a>
+        </div>
+        <!-- Add more cards as needed -->
+    </div>
+</body>
+
+</html>
+<footer style="position: fixed; bottom: 0; width: 100%; background-color: rgba(0, 0, 0, 0.8); padding: 20px; color: white;">Joeson Stanes© 2024</footer>
