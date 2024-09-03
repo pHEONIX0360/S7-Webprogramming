@@ -1,0 +1,35 @@
+body{
+    background-image: url('/images/flowers.jpeg');
+    background-size: cover;
+}
+
+.content{
+    font-size: 20px;
+    margin: 5%;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+ul{
+    line-height: 30px;
+    list-style: square;
+}
+
+a:hover, a:active{
+    background-color: green;
+}
+
+table{
+    border-left: dashed;
+    border-right: dashed;
+    border-top: double;
+    border-bottom: double;
+}
+
+th{
+    border-bottom: solid;
+    padding: 5px;
+}

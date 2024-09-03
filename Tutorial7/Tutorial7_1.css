@@ -1,0 +1,27 @@
+body{
+    background-image: url('/images/boat.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    height: 200px;
+    margin: 3%;
+    padding: 20px;
+    color: white;
+    border: dotted white;
+}
+
+li{
+    font-size: 20px;
+    list-style: lower-alpha;
+}
+
+a{
+    color: white;
+}
+
+ol li a:hover, ol li a:active{
+    background-color: yellow;
+    color: black;
+}

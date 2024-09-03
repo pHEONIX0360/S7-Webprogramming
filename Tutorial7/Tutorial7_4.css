@@ -1,0 +1,13 @@
+#para-1{
+    color: blue;
+    text-align: right;
+    text-decoration: underline;
+    font-style: italic;
+    word-spacing: 2cm;
+}
+
+#para-2{
+    background-color: yellow;
+    border: dashed blue;
+    padding: 1.5cm;
+}
